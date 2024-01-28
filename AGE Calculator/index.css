@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    background-color: coral;
+    width:80%;
+    color:white;
+}
+
+#displayAge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(98, 80, 255);
+    width:80%;
+    color:white;
+}
+
+.submit_btn{
+    padding:5px 5px;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    margin:20px;
+    font-weight:bold;
+    cursor:pointer;
+    background-color:yellow;
+}
+.submit_btn:hover{
+    background-color:white;
+    color:blue;
+}
+
