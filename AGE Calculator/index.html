@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="./index.css">
-        <title>Age Calculator</title>
-    </head>
-    <body>
-        <script src="./index.js"></script>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Age Calculator</title>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Welcome to Age Calculator</h1>
+            <label>Enter your BirthDay</label>
+            <input type="date" id="birthday" name="birthday">
+            <button onclick="calculateAge()">submit</button>    
+    </div>
+    <div id="displayAge">
+        <p id="age"></p>
+    </div>
+   
+</body>
+
 </html>
