@@ -56,3 +56,17 @@
     text-decoration: none;
     color:#fff
 }
+
+.join_prime{
+    background-image:linear-gradient(to right, #000 40%, transparent 58%),url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB1198675309_.jpg');
+    height:550px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login_steps{
+    color:#fff;
+    text-align:left
+
+}
