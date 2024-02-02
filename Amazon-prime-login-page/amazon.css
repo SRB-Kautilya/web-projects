@@ -90,4 +90,41 @@
     border-radius: 2px;
     /* box-shadow: none; */
     border: none;
+    color:#fff
+}
+
+.prime_family{
+background-image:linear-gradient(to left, #000 40%, transparent 58%), url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-Living-Room-V2._CB524587855_.jpg');
+height:400px;
+background-position: left top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.prime_family_steps{
+    display:flex;
+    flex-direction: column;
+    color:#fff;
+    justify-content: center;
+    padding: 50px 5%;
+    align-items: flex-start;
+    padding: 50px 5%;
+    padding-left: 527px;
+
+}
+
+.membership{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.get_btn{
+    margin-top: 15px;
+    background-color: #0f79af;
+    height: 31px;
+    width: 40%;
+    border-radius: 2px;
+    /* box-shadow: none; */
+    border: none;
+    color:#fff
 }
