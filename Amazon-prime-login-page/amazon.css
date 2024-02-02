@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
    
 }
 
@@ -67,6 +66,28 @@
 
 .login_steps{
     color:#fff;
-    text-align:left
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 52%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.join{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.join_btn{
+    margin-top: 15px;
+    background-color: #0f79af;
+    height: 31px;
+    width: 40%;
+    border-radius: 2px;
+    /* box-shadow: none; */
+    border: none;
 }
