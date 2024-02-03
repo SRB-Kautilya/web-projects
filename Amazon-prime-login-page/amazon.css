@@ -128,3 +128,36 @@ background-size: cover;
     border: none;
     color:#fff
 }
+
+.foot {
+    padding: 15px 17px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #1b2530;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.ft-img{
+    height:14px
+}
+
+.list-of-links{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+
+li {
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}
